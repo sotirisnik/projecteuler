@@ -1,0 +1,1 @@
+L = []for i in range( 0, 20 ):    x = raw_input()    for j in x:        L.append( int(j) )Maxim = 0adj = 13for i in range( 0, len(L)-adj ):    tmp = L[i]    for j in range( i+1, i+adj ):        tmp *= L[j]    Maxim = max( Maxim, tmp )        print "%d" % ( Maxim )
