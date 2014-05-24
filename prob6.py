@@ -1,0 +1,1 @@
+def sum_squares( x ):    return ( x * ( x+1 ) * ( 2*x + 1 ) / 6 )    def square_sum( x ):     sum = x*(x+1) / 2     return ( sum*sum )print "%d" % ( square_sum(100) - sum_squares(100) )
