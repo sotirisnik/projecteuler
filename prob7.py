@@ -1,0 +1,1 @@
+def is_prime( x ):    if x % 2 == 0:        return ( False )    for i in range( 3, x, 2 ):        if x % i == 0:            return ( False )    return ( True )total = 2i = 3while total < 10001:    i += 2    if is_prime(i):        total += 1print "%d" % (i)
