@@ -61,7 +61,9 @@ ans = 0
 for i in Primes:
     if i < 10:
         continue
-    if count < how and is_truncatable_prime( i ):
+    if count >= how:
+        break
+    if is_truncatable_prime( i ):
         ans += i
         count += 1
         
