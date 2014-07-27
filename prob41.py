@@ -1,8 +1,5 @@
 import math
 
-a = -79
-b = 1601
-
 Primes = []
 P = []
 
