@@ -11,9 +11,7 @@ a^2 + b^2 = c^2
 
 def f( a, b, p ):
     return ( a*a + b*b - ( p - a - b ) ** 2 )
-
-p = 120
-
+    
 ans = 0
 Pans = -1
 
