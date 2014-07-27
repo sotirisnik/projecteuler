@@ -36,7 +36,7 @@ for i in range( 2, sqrt_MAXN ):
         for j in range( i*i, MAXN, i ):
             P[j] = False
 
-for i in range( 1, MAXN ):
+for i in range( 2, MAXN ):
     if P[i]:
         Primes.append( i )
 
