@@ -57,7 +57,7 @@ for k in range( len(Primes)-1, -1, -1 ):
         if rangeSum(j,j+k) > MAXN:
             break
         if isprime( rangeSum(j,j+k) ):
-            ans = rangeSum(j,j+k)
             Found = True
+            ans = rangeSum(j,j+k)
             
 print "%d" % (ans)
