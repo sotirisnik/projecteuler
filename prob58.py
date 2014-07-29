@@ -1,11 +1,3 @@
-import math
-
-Primes = []
-P = []
-
-MAXN = 1000000
-sqrt_MAXN = int(math.sqrt( MAXN )) + 1
-
 def isprime( x ):
 
     if x < 2:
@@ -21,18 +13,6 @@ def isprime( x ):
             return ( False )
     
     return ( True )
-            
-for i in range( 0, MAXN ):
-    P.append( True )
-    
-for i in range( 2, sqrt_MAXN ):
-    if P[i]:
-        for j in range( i*i, MAXN, i ):
-            P[j] = False
-
-for i in range( 2, MAXN ):
-    if P[i]:
-        Primes.append( i )
 
 amount = 1
 step = 2
