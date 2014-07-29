@@ -3,9 +3,6 @@ x = raw_input().split(',')
 for i in range( 0, len(x) ):
     x[i] = int( x[i] )
 
-#print x
-
-
 L = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 SP = [ ord( ' ' ),  ord('!'), ord( '\''), ord('('), ord(')'), ord(','), ord('.'), ord(';') ]
 
