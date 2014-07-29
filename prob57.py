@@ -1,3 +1,5 @@
+import math
+
 num = 3
 denom = 2
 
@@ -5,7 +7,7 @@ ans = 0
 
 for i in range( 0, 1000 ):
     
-    if len( str(num) ) > len( str(denom) ):
+    if int( math.log( num, 10 ) ) > int( math.log( denom, 10 ) ):
         ans += 1
     
     Sum = num + denom
